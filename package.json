@@ -1,0 +1,20 @@
+{
+  "name": "devsullc-cypress-ui-api-testing",
+  "version": "1.0.0",
+  "description": "Devsu LLC - Cypress project -UI and API-Testing",
+  "main": "index.js",
+  "scripts": {
+    "opener": "cypress open --e2e --browser chrome",
+    "runner": "cypress run --e2e --browser chrome"
+  },
+  "keywords": [
+    "ui-testing",
+    "api-testing"
+  ],
+  "author": "Ignacio Calegiure",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.7.1",
+    "typescript": "^5.4.3"
+  }
+}
